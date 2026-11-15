@@ -1,0 +1,40 @@
+# Secretos (nunca subir valores reales)
+.env
+.env.*
+!.env.example
+
+# Material confidencial (planos, respaldos de base de datos)
+*.dwg
+*.dxf
+*.bak
+*.backup
+*.dump
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+coverage/
+npm-debug.log*
+
+# Java / Spring Boot (Maven y Gradle)
+target/
+build/
+.gradle/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editores y sistema
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
